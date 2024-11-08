@@ -1,0 +1,12 @@
+.custom_breadcrumb ol li {
+  color: #000000 !important;
+}
+
+.custom_breadcrumb ol li:last-child {
+  color: var(--orange-color) !important;
+}
+
+.custom_breadcrumb :global(.ant-breadcrumb-separator) {
+  color: #93b9ff !important;
+  margin: 0 3px !important;
+}

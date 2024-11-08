@@ -1,0 +1,62 @@
+/* profile section styling */
+
+.profile_container {
+  border-radius: 12.5rem;
+  width: 140px;
+  height: 44px;
+  border: 1px solid #f1f1f1;
+  display: flex;
+  padding: 6px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+}
+
+.profile_picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_picture img {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ffffff;
+}
+
+.profile_name {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+
+.profile_action {
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  cursor: pointer;
+}
+
+/* country section styling */
+
+.country_container {
+  width: 60px;
+  height: 34px;
+  padding: 5px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  border-radius: 12.5rem;
+  border: 1px solid #F1F1F1;
+  background: #EEEEEE;
+}
+
+.country_action{
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    cursor: pointer;
+}

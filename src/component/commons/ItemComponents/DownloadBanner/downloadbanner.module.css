@@ -1,0 +1,13 @@
+.downloadbanner_container {
+  width: 100%;
+  padding: 10px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.downloadImage {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}

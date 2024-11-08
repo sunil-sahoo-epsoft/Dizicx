@@ -1,0 +1,183 @@
+.layout {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 32px;
+    height: 56px;
+    z-index: 999;
+    background-color: var(--white-color);
+}
+
+.action_section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.notification{
+    display: flex;
+    cursor: pointer;
+}
+
+.counties{
+    margin: 0px 13px 0px 21px;
+}
+
+
+.sider_container {
+    background: var(--primary-color);
+    z-index: 999;
+}
+
+.demo_logo {
+    height: 60px;
+    background-color: var(--primary-color);
+}
+
+.collapseButton {
+    color: var(--black-color);
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.headerTitle {
+    color: var(--black-color);
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.contentLayout {
+    background-color: var(--background-color);
+    
+}
+
+.content {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+    padding: 13px 32px 30px;
+}
+
+.sider_container :global(.ant-menu-title-content) {
+    color: #ffffff !important;
+    margin: 0 0 0 16px !important;
+}
+
+.sider_container :global(.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline, .ant-menu-title-content) {
+    color: #ffffff !important;
+    margin: 0px !important;
+    font-size: 14px !important;
+}
+
+.sider_container :global(.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline, .ant-menu-item) {
+    margin: 0px !important;
+}
+
+.sider_container :global(.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline) {
+    background: #003060 !important;
+    margin: 0px !important;
+    border-radius: 8px;
+}
+
+
+.sider_container .menu_items :global(.ant-menu-item-selected) {
+    background-color: #003060 !important;
+    padding: 8px 10px 8px 10px !important;
+    border-radius: 8px !important;
+}
+
+.sider_container .menu_items :global(.ant-menu-item) {
+    padding: 8px 10px !important;
+    width: 100% !important;
+    margin: 0px !important;
+    margin-top: 20px !important;
+}
+
+.sider_container .menu_items :global(.ant-menu-submenu-title) {
+    padding: 8px 10px !important;
+    margin: 0px !important;
+    margin-top: 20px !important;
+    width: 100% !important;
+    border-bottom: 2px solid var(--primary-color) !important;
+}
+
+.sider_container .menu_items_collapsed :global(.ant-menu-item-selected) {
+    background-color: #003060 !important;
+    padding: 4px 10px 8px 10px !important;
+    border-radius: 8px !important;
+}
+
+.sider_container .menu_items_collapsed :global(.ant-menu-item) {
+    padding: 4px 10px 8px 10px !important;
+    width: 100% !important;
+    margin: 0px !important;
+    margin-top: 20px !important;
+}
+
+.sider_container .menu_items_collapsed :global(.ant-menu-submenu-title) {
+    padding: 4px 10px 8px 10px !important;
+    margin: 0px !important;
+    margin-top: 20px !important;
+    width: 100% !important;
+    border-bottom: 2px solid var(--primary-color) !important;
+}
+
+.sider_container :global(.ant-menu-submenu-open) {
+    background-color: #003060 !important;
+}
+
+.sider_container .sider_icons {
+    opacity: 0.6;
+}
+
+.sider_container :global(.ant-menu-item):hover .sider_icons,
+.sider_container :global(.ant-menu-submenu-title):hover .sider_icons {
+    opacity: 1;
+}
+
+.sider_container :global(.ant-menu-submenu-selected .ant-menu-submenu-title .ant-menu-item-icon),
+.sider_container :global(.ant-menu-item-selected) .sider_icons {
+    opacity: 1;
+}
+
+
+.sider_container :global(.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline, .ant-menu-item-selected) {
+    background-color: #00264E !important;
+    padding: 8px 10px !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+}
+
+:global(.ant-menu-submenu-popup > .ant-menu) {
+    background-color: #003060 !important;
+    color: #ffffff !important;
+}
+
+:global(.ant-menu-dark>.ant-menu .ant-menu-item-selected) {
+    background-color: #00264E !important;
+}
+
+@media (max-width: 992px) {
+    .sider_container {
+        position: absolute !important;
+        height: 100vh;
+        padding: 0px !important;
+    }
+    .content {
+        padding: 13px 16px 30px;
+    }
+
+    .sider_container.collapsed {
+        padding: 8px 10px !important;
+    }
+
+    .header {
+        padding: 6px 16px;
+    }
+}

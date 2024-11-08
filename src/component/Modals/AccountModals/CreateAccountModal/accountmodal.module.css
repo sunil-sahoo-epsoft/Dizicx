@@ -1,0 +1,68 @@
+.createAccountModal {
+  padding-bottom: unset;
+  /* top: 50%;
+left: 0%;
+transform: translate(-0%, -50%); */
+}
+
+.modalForm {
+  padding: 20px 20px 43px 20px;
+}
+
+.createAccount_modal_header_section {
+  color: #2e2a40;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  padding-bottom: 20px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #dadada;
+  margin: 0 -20px;
+  padding-left: 20px;
+}
+.createAccount_modal_header_section p {
+  margin: 0;
+}
+
+:global(.ant-modal .ant-modal-close) {
+  top: 10px !important;
+  padding: 19px 23px !important;
+  color: #000000 !important;
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+.Password_info_container {
+  background: #e8ecf1;
+  padding: 12px 19px;
+  border-radius: 6px;
+  margin-bottom: 74px;
+}
+
+.Password_info_container p {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.footer_container {
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 800px) {
+  .createAccountModal {
+    top: 20px;
+  }
+
+  .Password_info_container {
+    margin-bottom: 40px;
+  }
+
+}

@@ -1,0 +1,68 @@
+.modalTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 6px;
+  padding: 21px 0px 0px 16px;
+}
+
+.modalTitle p {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #2e2a40;
+}
+
+:global(.ant-modal .ant-modal-close) {
+  top: 10px !important;
+  padding: 19px 23px !important;
+  color: #000000 !important;
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+:global(.ant-modal .ant-modal-header) {
+  margin-bottom: 0px !important;
+}
+
+.accountIdTag {
+  background: #143f6b1a;
+  color: #143f6b;
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+
+.modalContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 20px 26px 33px 26px;
+}
+
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.detailLabel {
+  font-family: var(--manrope-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.12px;
+  text-align: left;
+  color: #84818a;
+}
+
+.detailValue {
+  font-family: var(--manrope-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.86px;
+  text-align: right;
+  color: #143f6b;
+}

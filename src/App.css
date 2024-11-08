@@ -1,0 +1,12 @@
+body {
+  font-family: var(--poppins-family);
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  margin: 0px;
+}
+
+@media (max-width: 520px) {
+  p {
+    font-size: 14px !important;
+  }
+}

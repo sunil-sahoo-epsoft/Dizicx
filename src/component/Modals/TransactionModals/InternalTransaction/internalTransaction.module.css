@@ -1,0 +1,51 @@
+.modalContent_body {
+  padding: 20px 20px 41px 20px;
+  background: #f8f8f8;
+  border-radius: var(--border-radius-conatiner);
+}
+
+.internalTransfer_modal_header_section {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  margin: 0 -20px;
+  padding-left: 20px;
+  margin-bottom: 27px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.internalTransfer_modal_header_section img,
+.internalTransfer_modal_header_section p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.internalTransfer_modal_buttons_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmation_section {
+  padding: 0px 48px;
+}
+.confirmation_section p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.internalTransfer_modal_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
